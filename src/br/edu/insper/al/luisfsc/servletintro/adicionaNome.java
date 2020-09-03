@@ -31,6 +31,8 @@ public class adicionaNome extends HttpServlet {
 		// TODO Auto-generated method stub
 		//response.getWriter().append("Served at: ").append(request.getContextPath());		
 		String name = request.getParameter("nome");
+		String email = request.getParameter("email");
+		String curso = request.getParameter("curso");
 		
 		
 		PrintWriter out = response.getWriter();
@@ -38,6 +40,8 @@ public class adicionaNome extends HttpServlet {
 		out.println("<html>");
 		out.println("<body>");
 		out.println("Nome: " + name);
+		out.println("E-mail: " + email);
+		out.println("Curso: " + curso);
 		out.println("</body>");
 		out.println("</html>");
 		
