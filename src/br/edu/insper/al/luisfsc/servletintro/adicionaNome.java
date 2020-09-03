@@ -39,9 +39,9 @@ public class adicionaNome extends HttpServlet {
 		
 		out.println("<html>");
 		out.println("<body>");
-		out.println("Nome: " + name);
-		out.println("E-mail: " + email);
-		out.println("Curso: " + curso);
+		out.println("Nome: " + name +"</br>");
+		out.println("E-mail: " + email +"</br>");
+		out.println("Curso: " + curso +"</br>");
 		out.println("</body>");
 		out.println("</html>");
 		
